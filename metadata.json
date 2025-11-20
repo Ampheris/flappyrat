@@ -1,0 +1,5 @@
+{
+  "name": "Flappy Rat",
+  "description": "A sewer-themed endless runner where you guide a rat through hazardous pipes. Tap or press space to flap!",
+  "requestFramePermissions": []
+}
