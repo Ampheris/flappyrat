@@ -1,7 +1,7 @@
 {
-  "name": "flappy-rat",
-  "private": true,
+  "name": "flappyrat",
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
