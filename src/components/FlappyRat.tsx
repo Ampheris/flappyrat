@@ -1,6 +1,6 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
-import { GameState, PipeData } from '../../types';
+import { GameState, PipeData } from '../types';
 import {
   GRAVITY,
   JUMP_STRENGTH,
@@ -15,7 +15,7 @@ import {
   RAT_X_OFFSET,
   PIPE_SPAWN_RATE,
   MIN_PIPE_HEIGHT
-} from '../../constants';
+} from '../constants';
 import { Play, RotateCcw, Trophy } from 'lucide-react';
 
 // --- Assets ---
