@@ -256,10 +256,10 @@ export const FlappyRat: React.FC = () => {
         // Vertical Movement logic (Level 2)
         if (isMovingPipes) {
            // Oscillation parameters
-           const speed = 0.025; // Slow oscillation
-           const range = 40;    // Range in pixels
+           const speed = 0.05; // Slow oscillation
+           const range = 50;    // Range in pixels
            // Offset phase by x to prevent unison movement, creating a wave effect
-           const phase = pipe.x * 0.005; 
+           const phase = pipe.x * 0.006;
            
            const oscillation = Math.sin(frameCountRef.current * speed + phase) * range;
            pipe.topHeight = pipe.initialTopHeight + oscillation;
