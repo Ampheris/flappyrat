@@ -18,8 +18,6 @@ import {
 } from '../constants';
 import { Play, RotateCcw, Trophy } from 'lucide-react';
 
-// --- Assets ---
-
 // Animated Rat Component (Clown Edition)
 const RatSVG = ({ rotation, frame }: { rotation: number; frame: number }) => (
   <svg
@@ -367,7 +365,6 @@ export const FlappyRat: React.FC = () => {
           backgroundRepeat: 'repeat-x',
           backgroundPosition: 'bottom',
           backgroundSize: '400px 200px',
-          transform: `translateX(${-bgOffset * 0.2}px)`,
         }} />
 
       <div className="absolute inset-x-0 top-10 h-64 pointer-events-none"
@@ -376,7 +373,6 @@ export const FlappyRat: React.FC = () => {
           backgroundRepeat: 'repeat-x',
           backgroundPosition: 'top',
           backgroundSize: '200px 200px',
-          transform: `translateX(${-bgOffset * 0.5}px)`,
         }} />
 
       {/* --- GAME ELEMENTS --- */}
